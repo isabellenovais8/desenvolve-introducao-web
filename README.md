@@ -1,2 +1,5 @@
 # desenvolve-introducao-web
-Projeto Desenvolve - Bom Despacho; Introdução a Programação Web; PDBD024.
+
+Cidade: Projeto Desenvolve - Bom Despacho
+Disciplina: Introdução a Programação Web
+Matricula: PDBD024
