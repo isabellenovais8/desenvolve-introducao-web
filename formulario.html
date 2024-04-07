@@ -9,85 +9,91 @@
         <img src="https://image.freepik.com/vector-gratis/diseno-concepto-retroalimentacion-emoticonos-emoji-sonrisa-escala-emoticonos_331172-814.jpg">
 
         <form action="formulario.html" method="POST">
-            <p>
-                <strong>DADOS PESSOAIS:</strong>
-            </p>
-
-            <p>
-                <label for="nome">Nome: </label>
-                <input type="text" placeholder="Nome completo" id="nome">
-            </p>
-
-            <p>
-                <label for="email">E-mail: </label>
-                <input type="email" placeholder="E-mail de contato" id="email">
-            </p>
-            <p>
-                <label for="telefone">Telefone: </label>
-                <input type="number" placeholder="Telefone de Contato" id="telefone">
-            </p>
+            <section>
+                <p>
+                    <strong>DADOS PESSOAIS:</strong>
+                </p>
+    
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" placeholder="Nome completo" id="nome">
+                </p>
+    
+                <p>
+                    <label for="email">E-mail: </label>
+                    <input type="email" placeholder="E-mail de contato" id="email">
+                </p>
+                <p>
+                    <label for="telefone">Telefone: </label>
+                    <input type="number" placeholder="Telefone de Contato" id="telefone">
+                </p>    
+            </section>
             
-            <p>
-                <br>
-                <strong>PESQUISA:</strong>
-            </p>
-
-            <p>
-                Você está gostando do curso de programação? <br>
-                <input type="radio" id="sim" name="gostando">
-                <label for="sim">Sim</label>
-
-                <input type="radio" id="nao" name="gostando">
-                <label for="nao">Não</label>
-
-                <input type="radio" id="talvez" name="gostando">
-                <label for="talvez">Talvez</label>
-            </p>
-
-            <p>
-                Quantos dias por semana está se dedicando ao curso? <br>
-                <input type="radio" id="um" name="dias_semana">
-                <label for="um">Um dia</label>
-
-                <input type="radio" id="dois" name="dias_semana">
-                <label for="dois">Dois dias</label>
-
-                <input type="radio" id="tres" name="dias_semana">
-                <label for="tres">Três dias</label>
-
-                <input type="radio" id="quatro" name="dias_semana">
-                <label for="quatro">Quatro dias</label>
-
-                <input type="radio" id="cinco" name="dias_semana">
-                <label for="cinco">Cinco dias</label>
-
-                <input type="radio" id="seis" name="dias_semana">
-                <label for="seis">Seis dias</label>
-                
-                <input type="radio" id="sete" name="dias_semana">
-                <label for="sete">Sete dias</label>
-            </p>
-
-            <p>
-                Dentre as matérias relacionadas para o primeiro semestre, qual tem chamado mais sua atenção? <br>
-                <em>Escolha apenas uma opção:</em>
-                <select>
-                    <option>Introdução ao Scratch</option>
-                    <option>Introdução à Elementos de Interface</option>
-                    <option>Introdução à Programação Web</option>
-                    <option>Introdução à Linux</option>
-                    <option>Programação Básica com Python</option>
-                    <option>No Code</option>
-                </select>
-            </p>
-
-            <p>
-                <br>
-                <strong>AUTORIZAÇÃO DE COMPARTILHAMENTO</strong> <br>
-                <input type="checkbox" id="autorizo">
-                <label for="autorizo">Autorizo compartilhar as informações contidas neste formulário com terceiros.</label>
-            </p>
-
+            <section>
+                <p>
+                    <br>
+                    <strong>PESQUISA:</strong>
+                </p>
+    
+                <p>
+                    Você está gostando do curso de programação? <br>
+                    <input type="radio" id="sim" name="gostando">
+                    <label for="sim">Sim</label>
+    
+                    <input type="radio" id="nao" name="gostando">
+                    <label for="nao">Não</label>
+    
+                    <input type="radio" id="talvez" name="gostando">
+                    <label for="talvez">Talvez</label>
+                </p>
+    
+                <p>
+                    Quantos dias por semana está se dedicando ao curso? <br>
+                    <input type="radio" id="um" name="dias_semana">
+                    <label for="um">Um dia</label>
+    
+                    <input type="radio" id="dois" name="dias_semana">
+                    <label for="dois">Dois dias</label>
+    
+                    <input type="radio" id="tres" name="dias_semana">
+                    <label for="tres">Três dias</label>
+    
+                    <input type="radio" id="quatro" name="dias_semana">
+                    <label for="quatro">Quatro dias</label>
+    
+                    <input type="radio" id="cinco" name="dias_semana">
+                    <label for="cinco">Cinco dias</label>
+    
+                    <input type="radio" id="seis" name="dias_semana">
+                    <label for="seis">Seis dias</label>
+                    
+                    <input type="radio" id="sete" name="dias_semana">
+                    <label for="sete">Sete dias</label>
+                </p>
+    
+                <p>
+                    <label for="materias">Dentre as matérias relacionadas para o primeiro semestre, qual tem chamado mais sua atenção?</label>
+                    <br><em>Escolha apenas uma opção:</em>
+                    <select>
+                        <option>Introdução ao Scratch</option>
+                        <option>Introdução à Elementos de Interface</option>
+                        <option>Introdução à Programação Web</option>
+                        <option>Introdução à Linux</option>
+                        <option>Programação Básica com Python</option>
+                        <option>No Code</option>
+                    </select>
+                </p>   
+            </section>
+            
+            <section>
+                <p>
+                    <br>
+                    <strong>AUTORIZAÇÃO DE COMPARTILHAMENTO</strong> <br>
+                    <input type="checkbox" id="autorizo">
+                    <label for="autorizo">Autorizo compartilhar as informações contidas neste formulário com terceiros.</label>
+                </p>     
+            </section>
+            
             <p>
                 <br>
                 <input type="submit" value="Enviar Formulário">
