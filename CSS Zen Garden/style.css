@@ -1,0 +1,32 @@
+/* Cores escolhidas
+.cor-background - { color: #146152; } verde escuro
+.cor-destaque - { color: #FF5A33; } amarelo
+.cor-principal - { color: #FFEC5C; } vermelho
+
+.cor-reserva - { color: #44803F; } verde
+.cor-reserva - { color: #B4CF66; } verde claro
+*/
+
+html {
+    background: #146152;
+    font-family: 'Arial';
+}
+
+body {
+    color: #FFEC5C;
+}
+
+h1.intro {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #FF5A33;
+}
+
+a {
+    color: #FF5A33;
+}
+
+a:hover {
+    color: #B4CF66;
+}
