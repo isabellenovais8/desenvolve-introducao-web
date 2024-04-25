@@ -9,18 +9,45 @@
 
 html {
     background: #146152;
-    font-family: 'Arial';
+    font-family: 'Arial', 'sans-serif'; /* Fonte sans-serif para página inteira */
+    font-size: 18px; /* Tamanho fixo para página inteira */
 }
 
 body {
     color: #FFEC5C;
 }
 
-h1.intro {
+p {
+    text-indent: 1em; /* Indentação para parágrafos */
+}
+
+h1 {
     font-family: cursive;
-    text-align: center;
-    font-size: 40px;
+    text-align: center; /* Título alinhado ao centro */
+    font-size: 1.8rem; /* Título com tamanho 1.8rem */
     color: #FF5A33;
+}
+
+h2 {
+    text-align: center; /* Título alinhado ao centro */
+    font-size: 1.4rem; /* Título com tamanho 1.4rem */
+}
+
+h3 {
+    text-align: center; /* Título alinhado ao centro */
+    font-size: 1.2rem; /* Título com tamanho 1.2rem */
+}
+
+.summary {
+    text-align: center; /* Seção resumo alinhado ao centro */
+}
+
+.main p {
+    line-height: 1.5; /* Espaçamento de 1.5 para parágrafos da seção principal */
+}
+
+abbr {
+    font-variant: small-caps;
 }
 
 a {
