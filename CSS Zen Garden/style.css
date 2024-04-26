@@ -102,6 +102,27 @@ aside ul li {
     display: inline-block; /* Espaçamento entre opções  */
 }
 
+.page-wrapper {
+    position: relative; /* Referência para posicionamento */
+}
+
+.explanation {
+    width: 60%; /* Utilização de 60% da largura disponível */
+    margin-right: 35%; /* Espaçamento à direita */
+    border-right-style: solid; /* Estilo da borda */
+    border-width: 1px; /* Largura da borda */
+    border-right-color: #1f295c; /* Cor da borda à direita */
+    padding-right: 2%; /* Espaçamento interno ao lado direito */
+}
+
+.design-selection {
+    position: absolute; /* Definição para ajustar espaço */
+    top: 560px; /* Definição para colocar ao lado de explanation */
+    left: 62%; /* Definição para colocar ao lado de explanation */
+    padding-left: 2%; /* Espaçamento interno à esquerda para centralizar */
+    padding-right: 2%; /* Espaçamento interno à direita para centralizar */
+}
+
 a {
     color: #FF5A33;
 }
