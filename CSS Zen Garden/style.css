@@ -8,13 +8,16 @@
 */
 
 html {
-    background: #146152;
+    background: #FFEC5C;
     font-family: 'Arial', 'sans-serif'; /* Fonte sans-serif para página inteira */
     font-size: 18px; /* Tamanho fixo para página inteira */
+    width: 80%; /* Largura geral da página em 80% */
+    max-width: 1280px; /* Largura limitada a 1280px */
+    margin: auto; /* Centralizar página */
 }
 
 body {
-    color: #FFEC5C;
+    color: #146152;
 }
 
 p {
@@ -38,6 +41,17 @@ h3 {
     font-size: 1.2rem; /* Título com tamanho 1.2rem */
 }
 
+#zen-intro header h1 , h2 {
+    display: inline-block; /* h1 e h2 lado a lado com espaçamento */
+    padding: 15px; /* Mantém espaçamento entre itens e página */
+    margin: 15px; /* Mantém espaçamento entre itens e página */
+}
+
+#zen-intro header h1 {
+    padding-left: 1em; /* Espaçamento lateral em 1em */
+    padding-right: 1em; /* Espaçamento lateral em 1em */
+}
+
 .summary {
     text-align: center; /* Seção resumo alinhado ao centro */
 }
@@ -46,8 +60,46 @@ h3 {
     line-height: 1.5; /* Espaçamento de 1.5 para parágrafos da seção principal */
 }
 
+#zen-intro {
+    height: 550px; /* Altura da seção introdução em 550px */
+}
+
+.design-archives {
+    display: none; /* Container removido da página */
+}
+
+header {
+    background-color: #146152; /* Inversão de cor */
+    color: #FFEC5C; /* Inversão de cor */
+}
+
 abbr {
-    font-variant: small-caps;
+    font-variant: small-caps; /* Altera a fote das abreviações */
+}
+
+aside ul {
+    list-style-type: none; /* Remove os bullets */
+}
+
+aside ul li {
+    margin: 1em; /* Espaçamento entre itens do menu em 1em */
+    text-align: center; /* Centraliza os itens */
+}
+
+.main footer {
+    margin: 4%; /* Espaçamento externo */
+    padding: 2%; /* Espaçamento interno */
+    text-align: center; /* Alinhar opções ao centro */
+}
+
+.main footer a {
+    background-color: #146152; /* Inversão de cores */
+    color: #FFEC5C; /* Inversão de cores */
+    border-style: solid; /* Borda sólida */
+    border-width: 2px; /* Largura da borda */
+    padding: 0.5em; /* Espaçamento interno */
+    border-color: #B4CF66; /* Cor da borda */
+    display: inline-block; /* Espaçamento entre opções  */
 }
 
 a {
