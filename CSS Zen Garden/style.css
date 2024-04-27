@@ -90,6 +90,10 @@ aside ul li {
     margin: 4%; /* Espaçamento externo */
     padding: 2%; /* Espaçamento interno */
     text-align: center; /* Alinhar opções ao centro */
+    display: flex; /* Flexbox aplicado */
+    align-items: center; /* Centraliza os itens */
+    justify-content: space-around; /* Espaçamento igual entre os itens */
+    flex-flow: row wrap; /* Em caso de muitas opções, gera quebra de linha */
 }
 
 .main footer a {
@@ -99,7 +103,7 @@ aside ul li {
     border-width: 2px; /* Largura da borda */
     padding: 0.5em; /* Espaçamento interno */
     border-color: #B4CF66; /* Cor da borda */
-    display: inline-block; /* Espaçamento entre opções  */
+    display: inline-block; /* Espaçamento entre opções */
 }
 
 .page-wrapper {
@@ -117,7 +121,7 @@ aside ul li {
 
 .design-selection {
     position: absolute; /* Definição para ajustar espaço */
-    top: 500px; /* Definição para colocar ao lado de explanation */
+    top: 480px; /* Definição para colocar ao lado de explanation */
     left: 62%; /* Definição para colocar ao lado de explanation */
     padding-left: 1%; /* Espaçamento interno à esquerda para centralizar */
     padding-right: 1%; /* Espaçamento interno à direita para centralizar */
@@ -148,4 +152,34 @@ a:visited {
     font-size: 3em; /* Tamanhp 3x maior */
     font-family: 'Times New Roman', 'serif'; /* Fonte diferente da padrão */
     float: left; /* Flutuação à esquerda */
+}
+
+.benefits {
+    display: flex; /* Display flexível */
+    border-bottom: #1f295c solid 1px; /* Borda embaixo */
+    border-top: #1f295c solid 1px; /* Borda em cima */
+}
+
+.benefits h3 {
+    order: 2; /* Título à direita */
+    align-self: center; /* Alinhado ao centro */
+    flex-basis: 30%; /* Ocupação da largura */
+}
+
+.benefits p {
+    flex-basis: 70%; /* Ocupação da largura */
+}
+
+.participation {
+    display: flex; /* Display flexível */
+    flex-wrap: wrap; /* Quebra de linha */
+    border-top: #1f295c solid 1px; /* Borda em cima */
+}
+
+.participation p , .participation h3 {
+    flex-basis: 50%; /* Ocupa metade do espaço disponível */
+}
+
+.participation h3 {
+    align-self: center; /* Centralizado */
 }
