@@ -1,7 +1,7 @@
 /* Cores escolhidas
 .cor-background - { color: #146152; } verde escuro
-.cor-destaque - { color: #FF5A33; } amarelo
-.cor-principal - { color: #FFEC5C; } vermelho
+.cor-destaque - { color: #FF5A33; } vermelho
+.cor-principal - { color: #FFEC5C; } amarelo
 
 .cor-reserva - { color: #44803F; } verde
 .cor-reserva - { color: #B4CF66; } verde claro
@@ -117,16 +117,35 @@ aside ul li {
 
 .design-selection {
     position: absolute; /* Definição para ajustar espaço */
-    top: 560px; /* Definição para colocar ao lado de explanation */
+    top: 500px; /* Definição para colocar ao lado de explanation */
     left: 62%; /* Definição para colocar ao lado de explanation */
-    padding-left: 2%; /* Espaçamento interno à esquerda para centralizar */
-    padding-right: 2%; /* Espaçamento interno à direita para centralizar */
+    padding-left: 1%; /* Espaçamento interno à esquerda para centralizar */
+    padding-right: 1%; /* Espaçamento interno à direita para centralizar */
+}
+
+.design-selection li {
+    border-top: #1f295c solid 1px; /* Borda superior em todos os itens do menu */
+}
+
+.design-selection li:last-child {
+    border-bottom: #1f295c solid 1px; /* Borda inferior no último item do menu */
 }
 
 a {
-    color: #FF5A33;
+    color: #FF5A33; /* Fonte destaque para links */
+    font-weight: bold; /* Fonte em negrito para links */
 }
 
 a:hover {
-    color: #B4CF66;
+    color: #B4CF66; /* Altera a cor quando sobrepostos */
+}
+
+a:visited {
+    font-weight: 400; /* Links visitados voltam para fonte normal */
+}
+
+.main p:first-of-type:first-letter { /* Uso de mais de um pseudo-classe para colocar a 1ª letra maior */
+    font-size: 3em; /* Tamanhp 3x maior */
+    font-family: 'Times New Roman', 'serif'; /* Fonte diferente da padrão */
+    float: left; /* Flutuação à esquerda */
 }
