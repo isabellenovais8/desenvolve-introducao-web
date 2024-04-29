@@ -8,7 +8,7 @@
 */
 
 html {
-    background: #FFEC5C;
+    background: #FFEC5C; /* Cor do fundo */
     font-family: 'Arial', 'sans-serif'; /* Fonte sans-serif para página inteira */
     font-size: 18px; /* Tamanho fixo para página inteira */
     width: 80%; /* Largura geral da página em 80% */
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    color: #146152;
+    color: #146152; /* Cor do texto */
 }
 
 p {
@@ -182,4 +182,42 @@ a:visited {
 
 .participation h3 {
     align-self: center; /* Centralizado */
+}
+
+/* Configuração para layout mobile */
+@media screen and (max-width: 768px) {
+    .explanation {
+        width: 100%; /* Utilização da largura disponível */
+        border-right: none; /* Borda lateral removida */
+    }
+    
+    .design-selection {
+        position: static; /* Volta a posição padrão */
+        width: 100%; /* Largura disponível sendo utilizada */
+    }
+
+    #zen-intro {
+        height: auto; /* Altura da seção introdução automática */
+    }
+    
+    .participation {
+        flex-direction: column; /* Direção horizontal */
+        display: flex; /* Display flexível */
+    }
+
+    p {
+        text-indent: 0; /* Indentação para parágrafos */
+    }
+}
+
+/* Configuração para impressão*/
+@media print {
+    html {
+        font-family: 'Times New Roman'; /* Altera estilo da fonte */
+    }
+
+    header {
+        background-color: #b5cf66; /* Fundo claro */
+        color: #1f295c; /* Cor do texto escuro */
+    }
 }
